@@ -1,2 +1,2 @@
-# assistant-telegrammbot
-Telegram bot-assistant
+# assistant-telegrambot
+Telegram bot that reminds you of important events.
