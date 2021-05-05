@@ -21,10 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.11
-        with:
-          bot.username: ${{secrets.TRYGGVI_USERNAME}}
-          bot.token: ${{secrets.TRYGGVI_TOKEN}}
-        env:
+      env:
           bot.username: ${{secrets.TRYGGVI_USERNAME}}
           bot.token: ${{secrets.TRYGGVI_TOKEN}}
       uses: actions/setup-java@v1
