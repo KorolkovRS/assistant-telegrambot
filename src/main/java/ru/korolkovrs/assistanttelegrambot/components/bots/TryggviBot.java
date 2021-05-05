@@ -12,10 +12,10 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 @Component
 @Slf4j
 public class TryggviBot extends TelegramLongPollingBot {
-    @Value("#{environment.bot.username}")
+    @Value("${TRYGGVI_USERNAME}")
     private String username;
 
-    @Value("#{environment.bot.token}")
+    @Value("${TRYGGVI_TOKEN}")
     private String token;
 
     @Override
