@@ -19,8 +19,8 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      bot.username: ${{Tryggvi_assistant_bot}}
-      bot.token: ${{secrets.tryggvi_token}}
+      bot.username: ${{secrets.TRYGGVI_USERNAME}}
+      bot.token: ${{secrets.TRYGGVI_TOKEN}}
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.11
