@@ -23,10 +23,10 @@ public class TryggviBot extends TelegramLongPollingBot {
 
     private static String COMMAND_PREFIX = "/";
 
-    @Value("${bot.username}")
+    @Value("${username}")
     private String username;
 
-    @Value("${bot.token}")
+    @Value("${token}")
     private String token;
 
     @PostConstruct
