@@ -28,4 +28,8 @@ public class HelpCommand implements Command {
         sendMessage.setText(MESSAGE);
         sendMessageService.sendMessage(sendMessage);
     }
+
+    public static String getMessage() {
+        return MESSAGE;
+    }
 }
