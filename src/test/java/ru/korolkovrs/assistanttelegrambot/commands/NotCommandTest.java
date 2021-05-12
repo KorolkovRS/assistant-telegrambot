@@ -1,14 +1,13 @@
 package ru.korolkovrs.assistanttelegrambot.commands;
 
-class HelpCommandTest extends AbstractCommandTest{
-
+public class NotCommandTest extends AbstractCommandTest {
     @Override
     public String getCommandMessage() {
-        return HelpCommand.MESSAGE;
+        return NotCommand.MESSAGE;
     }
 
     @Override
     public Command getCommand() {
-        return new HelpCommand(super.getSendMessageService());
+        return new NotCommand(getSendMessageService());
     }
 }

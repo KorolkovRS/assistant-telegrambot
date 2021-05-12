@@ -5,7 +5,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
 
 public class StopCommand implements Command {
-    private final static String MESSAGE = "Пока-пока!";
+    final static String MESSAGE = "Пока-пока!";
     private SendMessageService sendMessageService;
 
     public StopCommand(SendMessageService sendMessageService) {
