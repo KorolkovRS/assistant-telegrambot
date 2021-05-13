@@ -5,7 +5,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
 
 public class NotCommand implements Command {
-    private final static String MESSAGE = "Команда должна начинаться с символа \"/\". Что-бы узнать, что я умею напиши /help.";
+    final static String MESSAGE = "Команда должна начинаться с символа \"/\". Что-бы узнать, что я умею напиши /help.";
     private SendMessageService sendMessageService;
 
     public NotCommand(SendMessageService sendMessageService) {

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="541bc8fd-55a8-465d-a1b6-ec588d4e1489" name="Default Changelist" comment="ATB[2]: Update blank.yml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/NotCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/StartCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/StopCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/UnknownCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/NotCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/NotCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/StartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/StopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/StopCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/UnknownCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/UnknownCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommandTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sJeOYvzGVm7Q9Wbke9XTi8f9ms" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.korolkovrs.assistanttelegrambot.commands" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in assistant-telegrambot">
+    <configuration name="AssistantTelegrambotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.korolkovrs.assistanttelegrambot.AssistantTelegrambotApplication" />
+      <module name="assistant-telegrambot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.korolkovrs.assistanttelegrambot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in assistant-telegrambot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assistant-telegrambot" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelpCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assistant-telegrambot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.korolkovrs.assistanttelegrambot.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.korolkovrs.assistanttelegrambot.commands" />
+      <option name="MAIN_CLASS_NAME" value="ru.korolkovrs.assistanttelegrambot.commands.HelpCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelpCommandTest.shouldProperlyExecuteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assistant-telegrambot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.korolkovrs.assistanttelegrambot.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.korolkovrs.assistanttelegrambot.commands" />
+      <option name="MAIN_CLASS_NAME" value="ru.korolkovrs.assistanttelegrambot.commands.HelpCommandTest" />
+      <option name="METHOD_NAME" value="shouldProperlyExecuteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in assistant-telegrambot" />
+        <item itemvalue="Application.AssistantTelegrambotApplication" />
+        <item itemvalue="JUnit.HelpCommandTest" />
+        <item itemvalue="JUnit.HelpCommandTest.shouldProperlyExecuteTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="541bc8fd-55a8-465d-a1b6-ec588d4e1489" name="Default Changelist" comment="" />
+      <created>1620595087078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620595087078</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ATB[2]: Update blank.yml">
+      <created>1620595372017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620595372017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ATB[2]: Update blank.yml">
+      <created>1620596193179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620596193179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ATB[2]: Update blank.yml">
+      <created>1620596898043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620596898043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ATB[2]: Update blank.yml">
+      <created>1620597414206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620597414206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ATB[2]: Update blank.yml">
+      <created>1620597495200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620597495200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ATB[2]: Update blank.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ATB[2]: Update blank.yml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="730" key="#Intentions" timestamp="1620819880668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="730" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1620819880668" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1620598213338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1620598213338" />
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1620820013912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620760835263" />
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620820013912" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620821641802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620821641802" />
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom" timestamp="1620822270503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
+    <state width="1877" height="236" key="GridCell.Tab.0.center" timestamp="1620822270503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620763317776" />
+    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
+    <state width="1877" height="236" key="GridCell.Tab.0.left" timestamp="1620822270503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620763317776" />
+    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
+    <state width="1877" height="236" key="GridCell.Tab.0.right" timestamp="1620822270503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
+    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1620763317778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620763317778" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1620763317777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1620763317777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1620763317777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1620822120980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620597505591" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620822120980" />
+  </component>
+</project>

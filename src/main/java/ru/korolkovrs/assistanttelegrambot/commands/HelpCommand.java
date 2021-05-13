@@ -7,19 +7,19 @@ import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
 import static ru.korolkovrs.assistanttelegrambot.commands.Commands.*;
 
 public class HelpCommand implements Command {
-    private final static String MESSAGE = String.format("✨<b>Доступные команды</b>✨\n\n"
+    final static String MESSAGE = String.format("✨<b>Доступные команды</b>✨\n\n"
 
                     + "<b>Начать\\закончить работу с ботом</b>\n"
                     + "%s - начать работу со мной\n"
                     + "%s - приостановить работу со мной\n\n"
                     + "%s - получить помощь в работе со мной\n",
             START.getCommandName(), STOP.getCommandName(), HELP.getCommandName());
-
     private SendMessageService sendMessageService;
 
     public HelpCommand(SendMessageService sendMessageService) {
         this.sendMessageService = sendMessageService;
     }
+
 
     @Override
     public void execute(Update update) {
