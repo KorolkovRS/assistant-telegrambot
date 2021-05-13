@@ -4,8 +4,9 @@ public enum Commands {
     START("/start"),
     STOP("/stop"),
     HELP("/help"),
-    UNKNOWN,
-    NOT("/NaC");
+    UNKNOWN(),
+    NOT("/NaC"),
+    ADD_REMIND("/add_remind");
 
     private String commandName;
 

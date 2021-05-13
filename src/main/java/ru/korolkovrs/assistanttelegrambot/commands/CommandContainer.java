@@ -13,6 +13,7 @@ public class CommandContainer {
                 .put(Commands.START.getCommandName(), new StartCommand(sendMessageService))
                 .put(Commands.STOP.getCommandName(), new StopCommand(sendMessageService))
                 .put(Commands.NOT.getCommandName(), new NotCommand(sendMessageService))
+                .put(Commands.ADD_REMIND.getCommandName(), new AddReminderCommand(sendMessageService))
                 .build();
         unknownCommand = new UnknownCommand(sendMessageService);
     }

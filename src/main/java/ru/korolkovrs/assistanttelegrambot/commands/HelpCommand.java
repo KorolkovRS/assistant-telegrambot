@@ -4,6 +4,8 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
 
+import java.util.Date;
+
 import static ru.korolkovrs.assistanttelegrambot.commands.Commands.*;
 
 public class HelpCommand implements Command {
@@ -11,9 +13,10 @@ public class HelpCommand implements Command {
 
                     + "<b>Начать\\закончить работу с ботом</b>\n"
                     + "%s - начать работу со мной\n"
-                    + "%s - приостановить работу со мной\n\n"
+                    + "%s - приостановить работу со мной\n"
+                    + "%s [дд мм гггг чч мм] [текст напоминания]  - добавить напоминание\n\n"
                     + "%s - получить помощь в работе со мной\n",
-            START.getCommandName(), STOP.getCommandName(), HELP.getCommandName());
+            START.getCommandName(), STOP.getCommandName(), ADD_REMIND.getCommandName(), HELP.getCommandName());
     private SendMessageService sendMessageService;
 
     public HelpCommand(SendMessageService sendMessageService) {
