@@ -1,5 +1,6 @@
 package ru.korolkovrs.assistanttelegrambot.commands;
 
+import lombok.extern.slf4j.Slf4j;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
@@ -8,6 +9,7 @@ import java.util.Date;
 
 import static ru.korolkovrs.assistanttelegrambot.commands.Commands.*;
 
+@Slf4j
 public class HelpCommand implements Command {
     final static String MESSAGE = String.format("✨<b>Доступные команды</b>✨\n\n"
 

@@ -23,7 +23,7 @@ public class AddReminderCommand implements Command {
 
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(message.getChatId().toString());
-        sendMessage.setText(message.getFrom().getFirstName());
+        sendMessage.setText(message.getChatId().toString());
         sendMessageService.sendMessage(sendMessage);
     }
 }
