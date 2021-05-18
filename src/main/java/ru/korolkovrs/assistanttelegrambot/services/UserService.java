@@ -11,6 +11,10 @@ import ru.korolkovrs.assistanttelegrambot.repositories.UserRepository;
 public class UserService {
     private final UserRepository userRepository;
 
+    public User saveOrUpdate(User user) {
+        return userRepository.save(user);
+    }
+
     public User findById(Long id) {
         return userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Неизвестная ошибка при обработке User"));
     }

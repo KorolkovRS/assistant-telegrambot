@@ -15,7 +15,7 @@ public class SendMessageServiceTest {
     @BeforeEach
     public void init() {
         telegramBot = Mockito.mock(TryggviBot.class);
-        sendMessageService = new SendMessageService(telegramBot);
+        sendMessageService = new SendMessageService();
     }
 
     @Test

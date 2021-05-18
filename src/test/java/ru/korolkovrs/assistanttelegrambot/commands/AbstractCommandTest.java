@@ -7,14 +7,17 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
+import ru.korolkovrs.assistanttelegrambot.services.UserService;
 
 public abstract class AbstractCommandTest {
     private SendMessageService sendMessageService;
+    private UserService userService;
     private Command command;
 
     @BeforeEach
     public void init() {
         sendMessageService = Mockito.mock(SendMessageService.class);
+        userService = Mockito.mock(UserService.class);
         command = getCommand();
     }
 
@@ -38,6 +41,10 @@ public abstract class AbstractCommandTest {
 
     public SendMessageService getSendMessageService() {
         return sendMessageService;
+    }
+
+    public UserService getUserService() {
+        return userService;
     }
 
     public abstract String getCommandMessage();

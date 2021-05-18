@@ -1,6 +1,7 @@
 package ru.korolkovrs.assistanttelegrambot.models;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.List;
@@ -8,10 +9,10 @@ import java.util.List;
 @Entity
 @Table(name = "users")
 @Data
+@NoArgsConstructor
 public class User {
     @Id
     @Column(name = "id")
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "username")
@@ -19,4 +20,9 @@ public class User {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Remind> reminds;
+
+    public User(Long id, String username) {
+        this.id = id;
+        this.username = username;
+    }
 }

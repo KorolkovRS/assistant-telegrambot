@@ -8,6 +8,6 @@ public class StartCommandTest extends AbstractCommandTest {
 
     @Override
     public Command getCommand() {
-        return new StartCommand(getSendMessageService());
+        return new StartCommand(getSendMessageService(), getUserService());
     }
 }

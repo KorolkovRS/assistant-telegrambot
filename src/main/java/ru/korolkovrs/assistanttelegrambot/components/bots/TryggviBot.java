@@ -2,6 +2,7 @@ package ru.korolkovrs.assistanttelegrambot.components.bots;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -10,16 +11,21 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.korolkovrs.assistanttelegrambot.commands.CommandContainer;
 import ru.korolkovrs.assistanttelegrambot.commands.Commands;
+import ru.korolkovrs.assistanttelegrambot.services.RemindService;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
+import ru.korolkovrs.assistanttelegrambot.services.UserService;
 
 import javax.annotation.PostConstruct;
 
 
 @Component
 @Slf4j
+@RequiredArgsConstructor
 public class TryggviBot extends TelegramLongPollingBot {
     private CommandContainer commandContainer;
     private SendMessageService sendMessageService;
+    private final UserService userService;
+    private final RemindService remindService;
 
     private static String COMMAND_PREFIX = "/";
 
@@ -29,10 +35,14 @@ public class TryggviBot extends TelegramLongPollingBot {
     @Value("${token}")
     private String token;
 
-    @PostConstruct
-    private void init() {
-        sendMessageService = new SendMessageService(this);
-        commandContainer = new CommandContainer(sendMessageService );
+    @Autowired
+    public void setCommandContainer(CommandContainer commandContainer) {
+        this.commandContainer = commandContainer;
+    }
+
+    @Autowired
+    public void setSendMessageService(SendMessageService sendMessageService) {
+        this.sendMessageService = sendMessageService;
     }
 
     @Override
@@ -58,20 +68,6 @@ public class TryggviBot extends TelegramLongPollingBot {
             } else {
                 commandContainer.getCommand(Commands.NOT.getCommandName()).execute(update);
             }
-
-
-//            String answerText = "Tryggvi say: " + messageText.trim();
-//            SendMessage sendMessage = new SendMessage();
-//            sendMessage.setChatId(id);
-//            sendMessage.setText(answerText);
-//
-//            try {
-//                execute(sendMessage);
-//            } catch (TelegramApiException e) {
-//                e.printStackTrace();
-//                log.error("Sending error", e);
-//            }
-
         }
     }
 }

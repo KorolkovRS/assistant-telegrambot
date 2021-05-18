@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import ru.korolkovrs.assistanttelegrambot.services.SendMessageService;
+import ru.korolkovrs.assistanttelegrambot.services.UserService;
 
 import java.util.Arrays;
 
@@ -13,7 +14,7 @@ class CommandContainerTest {
 
     @BeforeEach
     public void init() {
-        commandContainer = new CommandContainer(Mockito.mock(SendMessageService.class));
+        commandContainer = new CommandContainer(Mockito.mock(UserService.class));
     }
 
     @Test
