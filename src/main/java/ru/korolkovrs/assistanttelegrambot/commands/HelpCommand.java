@@ -16,9 +16,9 @@ public class HelpCommand implements Command {
                     + "<b>Начать\\закончить работу с ботом</b>\n"
                     + "%s - начать работу со мной\n"
                     + "%s - приостановить работу со мной\n"
-                    + "%s [дд мм гггг чч мм] [текст напоминания]  - добавить напоминание\n\n"
+                    + "%s [%s] [текст напоминания]  - добавить напоминание\n\n"
                     + "%s - получить помощь в работе со мной\n",
-            START.getCommandName(), STOP.getCommandName(), ADD_REMIND.getCommandName(), HELP.getCommandName());
+            START.getCommandName(), STOP.getCommandName(), ADD_REMIND.getCommandName(), AddReminderCommand.DATE_FORMAT, HELP.getCommandName());
     private SendMessageService sendMessageService;
 
     public HelpCommand(SendMessageService sendMessageService) {

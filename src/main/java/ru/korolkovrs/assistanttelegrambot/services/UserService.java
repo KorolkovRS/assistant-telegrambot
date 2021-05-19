@@ -18,4 +18,8 @@ public class UserService {
     public User findById(Long id) {
         return userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Неизвестная ошибка при обработке User"));
     }
+
+    public boolean existById(Long id) {
+        return userRepository.existsById(id);
+    }
 }

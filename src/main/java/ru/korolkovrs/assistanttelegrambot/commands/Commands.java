@@ -6,7 +6,7 @@ public enum Commands {
     HELP("/help"),
     UNKNOWN(),
     NOT("/NaC"),
-    ADD_REMIND("/add_remind");
+    ADD_REMIND("/remind");
 
     private String commandName;
 

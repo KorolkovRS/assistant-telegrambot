@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -24,5 +25,6 @@ public class User {
     public User(Long id, String username) {
         this.id = id;
         this.username = username;
+        reminds = new ArrayList<>();
     }
 }

@@ -23,4 +23,10 @@ public class Remind {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+
+    public Remind(String message, Date date, User user) {
+        this.message = message;
+        this.date = date;
+        this.user = user;
+    }
 }

@@ -18,8 +18,6 @@ public class SendMessageService {
     }
 
     public void sendMessage(SendMessage sendMessage) {
-        log.info(sendMessage.getChatId());
-        log.info(sendMessage.getText());
         try {
             telegramBot.execute(sendMessage);
         } catch (TelegramApiException e) {

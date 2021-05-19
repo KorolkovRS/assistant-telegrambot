@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,16 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="541bc8fd-55a8-465d-a1b6-ec588d4e1489" name="Default Changelist" comment="ATB[4]: Continue work with AddReminderCommand">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/repositories/RemindRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/RemindService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/secured.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/AddReminderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/AddReminderCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/CommandContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/CommandContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/CheckRemindersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/CheckRemindersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/models/Remind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/models/Remind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/SendMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/SendMessageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1sJeOYvzGVm7Q9Wbke9XTi8f9ms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GeekBrains/Market/market" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Market/market" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -122,53 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AssistantTelegrambotApplication" />
@@ -178,6 +143,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,63 +222,84 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="730" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1620819880668" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1620845223239">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="311" y="0" key="#Project_Structure" timestamp="1621401955417">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1620845223239" />
-    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1620820013912">
+    <state x="311" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1621401955417" />
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1621410026423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620760835263" />
-    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620820013912" />
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621410026423" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620821641802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620821641802" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621168214949">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1621410294262">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621168214949" />
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1621280370365">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621410294262" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621280370365" />
-    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1621280370365">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621280370365" />
-    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1621280370365">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621280370365" />
-    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1621280370365">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621280370365" />
-    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620822270503" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1620763317778">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620763317778" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1620763317777">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1620763317777">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1620763317777">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1621428044357">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620763317777" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621195610292">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621428044357" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1621430242479">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621195610292" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620822120980" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621430242479" />
+    <state x="342" y="140" key="new project wizard" timestamp="1621427481313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1621427481313" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/korolkovrs/assistanttelegrambot/commands/AddReminderCommand.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
